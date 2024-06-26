@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout # 이름 아무거나 설정 가능.
-        uses: actions/checkout@v2# (4).코드 check out # 깃허브의 actions/checkout@v2를 사용해서 체크아웃 (범위는 .github가 속한 상위의 모든 자식)
+        uses: actions/checkout@v2 # (4).코드 check out  깃허브의 actions/checkout@v2를 사용해서 체크아웃 (범위는 .github가 속한 상위의 모든 자식)
 
       - name: Set up JDK 17
         uses: actions/setup-java@v3
